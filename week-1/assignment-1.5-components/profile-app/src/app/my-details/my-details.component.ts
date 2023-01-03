@@ -1,3 +1,10 @@
+/**
+ * Title: my-details.component.ts
+ * Author: Chad ONeal
+ * Date: 01/03/23
+ * Description: my-details.component 
+*/
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
