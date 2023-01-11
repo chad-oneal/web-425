@@ -5,6 +5,7 @@
  * Description: Person interface
  */
 
+// export statement 
 export interface IPerson {
     firstName: string;
     lastName: string;
