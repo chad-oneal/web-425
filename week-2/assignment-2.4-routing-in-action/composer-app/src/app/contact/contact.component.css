@@ -1,0 +1,29 @@
+/*
+============================================
+, Title: contact.component.css for composer-app
+; Author: Chad ONeal
+; Date: 01/11/2023
+; Description: css styling for composer-app
+===========================================
+*/
+
+/* styling for "contact us" to be centered on page
+*/
+.location {
+  text-align: center;
+}
+
+/* styling for page
+*/
+.align-center {
+  text-align: center;
+}
+
+/*
+styling for container on page
+*/
+.contact-container {
+  width: 100%;
+  padding-top: 50px;
+
+}

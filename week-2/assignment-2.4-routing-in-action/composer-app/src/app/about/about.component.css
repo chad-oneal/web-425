@@ -1,0 +1,27 @@
+/*
+============================================
+, Title: about.component.css for composer-app
+; Author: Chad ONeal
+; Date: 01/11/2023
+; Description: css styling for composer-app
+===========================================
+*/
+
+/* styling for the reference link
+*/
+.apa-reference {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+/* aligns composer name in middle of page
+*/
+.align-center {
+  text-align: center;
+}
+
+/* styling for the composer container
+*/
+.composer-container {
+  padding-top: 50px;
+}

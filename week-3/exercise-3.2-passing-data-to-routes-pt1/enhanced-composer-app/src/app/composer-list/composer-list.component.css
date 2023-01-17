@@ -1,0 +1,16 @@
+/*
+============================================
+, Title: composer-list.css
+; Author: Chad ONeal
+; Date: 01/11/2023
+; Description: css styling for composer-app
+===========================================
+*/
+
+thead {
+  background-color: black;
+}
+
+th {
+  color: white;
+}
