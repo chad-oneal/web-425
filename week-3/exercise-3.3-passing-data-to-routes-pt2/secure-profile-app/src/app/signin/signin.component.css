@@ -1,0 +1,19 @@
+/*
+============================================
+, Title: signin.component.css
+; Author: Chad ONeal
+; Date: 01/18/2023
+; Description: signin.component.css
+===========================================
+*/
+
+.signin-container {
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.btn {
+  float: right;
+  margin-top: 3%;
+}
