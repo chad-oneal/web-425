@@ -1,0 +1,19 @@
+/*
+============================================
+, Title: book-list.component.scss for in-n-out-booksp1
+; Author: Chad ONeal
+; Date: 02/02/2023
+; Description: css styling for in-n-out-books
+===========================================
+*/
+
+// show book details link styling
+.a-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+// show book details link hover styling
+.a-link:hover {
+  text-decoration: underline;
+}
