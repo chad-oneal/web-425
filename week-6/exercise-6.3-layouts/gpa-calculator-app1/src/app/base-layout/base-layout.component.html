@@ -1,0 +1,36 @@
+<!--
+==============================================
+; Title: Exercise 6.3 gpa-calculator-app1
+; Author: Chad ONeal
+; Date: 02/09/2023
+; Description: html for gpa-calculator-app1
+==============================================
+-->
+
+<!--section to hold logo and nav button at the top of the page -->
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <div class="logo"></div>
+      <img src="./assets/gpa-calculator-app.png" height="80" />
+    <div style="width: 80%">
+      <div fxLayout="row wrap" fxLayoutAlign="end start">
+        <button mat-button routerLink="/">Home</button>
+      </div>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<br>
+
+<!--section to hold the assignment # and message on page -->
+<div fxLayout="row wrap">
+  <div fxFlex>
+    <mat-card class="main-container">
+      <mat-card-title>{{ assignment }}</mat-card-title>
+      <br /><br />
+      <mat-card-content>
+        <router-outlet></router-outlet>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
