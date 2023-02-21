@@ -37,7 +37,7 @@
     </mat-card>
   </div>
 
-  <!-- once saved button is pressed, will save grades in this transcript section-->
+  <!-- clears transcript-->
   <div class="grade-summary" fxFlex>
     <button mat-button color="primary" (click)="clearEntries()">Clear Transcript</button>
     <mat-card class="mat-elevation-z8">
@@ -52,11 +52,11 @@
 
 <br /><br />
 
+<!-- holds results for gpa calculation at bottom of page-->
 <div fxLayout="column" fxLayoutGap="20px">
   <div fxFlex class="gpa">
     <button mat-button color="primary" (click)="calculateResults()">Calculate GPA</button>
 
-    <!-- holds results for gpa calculation at bottom of page-->
     <mat-card class="mat-elevation-z8">
       <mat-card-title style="text-align: center;">
         GPA: <app-gpa [gpaTotal]="gpaTotal"></app-gpa>

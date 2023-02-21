@@ -50,7 +50,7 @@ export class HomeComponent implements OnInit {
     event.currentTarget.reset();
   }
 
-  // calculates gpa
+  // calculates gpa results
   calculateResults() {
     let gpa: number = 0;
 
@@ -94,13 +94,12 @@ export class HomeComponent implements OnInit {
       }
     }
 
-    // logs the gpa calculation
+    // logs gpa to console
     console.log(gpa);
     this.gpaTotal = gpa / this.transcriptEntries.length;
     console.log(this.gpaTotal);
   }
 
-  // clear entries on transcript section
   clearEntries() {
     this.transcriptEntries = [];
     this.gpaTotal = 0;

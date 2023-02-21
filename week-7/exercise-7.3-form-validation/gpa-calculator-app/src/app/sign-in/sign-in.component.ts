@@ -39,7 +39,7 @@ export class SignInComponent implements OnInit {
 
   get form() { return this.signinForm.controls; }
 
-  // on submit function
+  // submit function
   onSubmit() {
     const formValues = this.signinForm.value;
     const studentId = parseInt(formValues.studentId);
